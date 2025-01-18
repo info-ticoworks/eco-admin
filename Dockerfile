@@ -8,7 +8,7 @@ RUN apk add --no-cache \
 WORKDIR /app
 RUN apk update
 # Install Python
-RUN apt-get install -y python3.6 && ln -s /usr/bin/python3.6 /usr/bin/python3
+RUN apk add -y python3.6 && ln -s /usr/bin/python3.6 /usr/bin/python3
 RUN python3 -V
 RUN apk add npm
 RUN apk add nodejs-current
