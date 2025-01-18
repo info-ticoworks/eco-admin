@@ -6,15 +6,11 @@ RUN apk add --no-cache \
       yarn
 
 WORKDIR /app
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    python3.5 \
-    python3-pip \
-    && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
-RUN pip3 install nibabel pydicom matplotlib pillow
-RUN pip3 install med2image
 RUN apk update
+# Install Python
+RUN apt-get install -y python3.6 \
+    && ln -s /usr/bin/python3.6 /usr/bin/python3
+RUN python3 -V
 RUN apk add npm
 RUN apk add nodejs-current
 COPY ./ ./
