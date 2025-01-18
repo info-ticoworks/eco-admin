@@ -7,8 +7,7 @@ RUN apk add --no-cache \
 
 WORKDIR /app
 RUN apk update
-# Install Python
-RUN apk install python3.6
+RUN apk add python3.6
 RUN python3 -V
 RUN apk add npm
 RUN apk add nodejs-current
