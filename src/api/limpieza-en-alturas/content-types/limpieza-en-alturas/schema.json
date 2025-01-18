@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "limpieza_en_alturas_carousel",
+  "info": {
+    "singularName": "limpieza-en-alturas",
+    "pluralName": "limpieza-en-alturas-carousel",
+    "displayName": "Limpieza en alturas"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Limpieza en alturas"
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

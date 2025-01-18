@@ -1,0 +1,36 @@
+{
+  "name": "cms-ecokhemia",
+  "private": true,
+  "version": "0.1.0",
+  "description": "CMS para el sitio web de Ecokhemia",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.25.1",
+    "@strapi/plugin-users-permissions": "4.25.1",
+    "@strapi/plugin-i18n": "4.25.1",
+    "@strapi/plugin-cloud": "4.25.1",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "fernandolievano@circulo"
+  },
+  "strapi": {
+    "uuid": "bd3d2895-d595-484f-9de1-b2fb4a3b4feb"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

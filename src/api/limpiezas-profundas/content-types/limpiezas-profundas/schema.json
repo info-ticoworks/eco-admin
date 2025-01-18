@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "limpiezas_profundas_carousel",
+  "info": {
+    "singularName": "limpiezas-profundas",
+    "pluralName": "limpiezas-profundas-carousel",
+    "displayName": "Limpiezas profundas"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Limpiezas profundas",
+      "required": true
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

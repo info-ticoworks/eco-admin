@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "limpieza_con_vapor_carousel",
+  "info": {
+    "singularName": "limpieza-con-vapor",
+    "pluralName": "limpieza-con-vapor-carousel",
+    "displayName": "Limpieza con vapor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Limpieza con vapor"
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

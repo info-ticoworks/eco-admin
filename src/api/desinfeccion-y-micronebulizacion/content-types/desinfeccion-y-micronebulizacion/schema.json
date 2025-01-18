@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "desinfeccion_y_micronebulizacion_carousel",
+  "info": {
+    "singularName": "desinfeccion-y-micronebulizacion",
+    "pluralName": "desinfeccion-y-micronebulizacion-carousel",
+    "displayName": "Desinfección y micronebulización"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Desinfección y micronebulización",
+      "required": true
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "limpieza_espacios_confinados_carousel",
+  "info": {
+    "singularName": "limpieza-espacios-confinados",
+    "pluralName": "limpieza-espacios-confinados-carousel",
+    "displayName": "Limpieza espacios confinados"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Limpieza espacios confinados"
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "limpieza_por_unidad_carousel",
+  "info": {
+    "singularName": "limpieza-por-unidad",
+    "pluralName": "limpieza-por-unidad-carousel",
+    "displayName": "Limpieza por unidad"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Limpieza por unidad",
+      "required": true
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
